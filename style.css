@@ -175,15 +175,7 @@
     visibility: none;
     pointer-events: none;
   }
-  .date-time-formate {
-    width: max-content;
-    height: max-content;
-    font-family: Dubai Light, Century Gothic;
-    position: relative;
-    display: inline;
-    top: 140px;
-    justify-content: center;
-  }
+  
   .day-text-formate {
     font-family: Microsoft JhengHei UI;
     font-size: 1.4rem;
@@ -285,3 +277,14 @@
     border-radius: 20%;
     color: var(--dark-text);
   }
+
+  .date-time-formate {
+    width: max-content;
+    height: max-content;
+    font-family: Dubai Light, Century Gothic;
+    position: relative;
+    display: inline;
+    top: 60px;
+    justify-content: center;
+  }
+  
