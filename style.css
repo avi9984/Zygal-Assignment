@@ -1,26 +1,14 @@
-:root {
-    --dark-text: #f8fbff;
-    --light-body: #f3f8fe;
-    --light-main: #fdfdfd;
-    --light-second: #c3c2c8;
-    --light-hover: #f0f0f0;
-    --light-text: #151426;
-    --light-btn: #9796f0;
-    --blue: #0000ff;
-    --white: #fff;
-    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    --font-family: consolas;
-  }
+
   * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
-  html,
+ 
   body {
     place-items: center;
     font-family: var(--font-family);
-    background:linear-gradient(to right, #9796f0, #fbc7d4);
+    background:linear-gradient(to right, #9796f0, #0ad96b);
     overflow: hidden;
   }
   .contianer {
@@ -139,12 +127,7 @@
   .calendar-days div span {
     position: absolute;
   }
-   .calendar-days div:hover {
-    transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
-    background-color: #fbc7d4;
-    border-radius: 20%;
-    color: var(--dark-text);
-  }
+   
   .calendar-days div.current-date {
     color: var(--dark-text);
     background-color: var(--light-btn);
@@ -294,4 +277,11 @@
   
       margin: 5px 0px;
     }
+  }
+
+  .calendar-days div:hover {
+    transition: width 0.2s ease-in-out, height 0.2s ease-in-out;
+    background-color: #0ae45e;
+    border-radius: 20%;
+    color: var(--dark-text);
   }
