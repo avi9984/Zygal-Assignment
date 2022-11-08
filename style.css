@@ -11,7 +11,7 @@
     background:linear-gradient(to right, #9796f0, #0ad96b);
     overflow: hidden;
   }
-  .contianer {
+  .main {
     width: max-content;
     height: max-content;
     position: relative;
